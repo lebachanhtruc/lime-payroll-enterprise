@@ -1,0 +1,21 @@
+# Dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Archives & local logs
+*.zip
+*.log
+.DS_Store
+
+# IDE & agent workspaces
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.antigravity/
